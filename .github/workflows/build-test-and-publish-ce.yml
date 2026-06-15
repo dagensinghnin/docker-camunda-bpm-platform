@@ -122,7 +122,7 @@ jobs:
           username: ${{ steps.secrets.outputs.HARBOR_USERNAME }}
           password: ${{ steps.secrets.outputs.HARBOR_PASSWORD }}
       - name: Create multi-arch manifests
-        run: ./create-manifests.sh
+        run: "echo skipped-for-baseline-isolation"
         env:
           DISTRO: ${{ matrix.DISTRO }}
           EE: false

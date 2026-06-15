@@ -1,0 +1,3 @@
+# CI replay marker for test/test.sh
+feature_branch: replay-6d3404d1
+workflow: .github/workflows/build-test-and-publish-ce.yml
